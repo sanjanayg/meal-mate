@@ -39,7 +39,7 @@ def handle_login(request):
             return render(request, 'delivery/fail.html')
     return HttpResponse("Invalid request")
 
-# Handle Sign Up
+# Handle Sign Up for the page
 def handle_signup(request):
     if request.method == 'POST':
         username = request.POST.get('username')
