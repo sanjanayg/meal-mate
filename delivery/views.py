@@ -8,7 +8,7 @@ from django.conf import settings
 
 
 
-# Home Page
+# Home Page for the page
 def index(request):
     return render(request, 'delivery/index.html')
 
